@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-11-21T22:07:55.321121Z",
+  "lastUpdated": "2026-11-21T22:16:26.000Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,7 +20,7 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-11-19T04:33:53.960Z",
+      "lastUpdated": "2026-11-21T22:16:26.000Z",
       "filename": "eli_settings-v3.json",
       "size": 142857,
       "label": "Settings",
@@ -160,7 +160,7 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-11-19T04:43:04.833Z",
+      "lastUpdated": "2026-11-21T22:16:03.000Z",
       "filename": "build_draft-v3.json",
       "size": 831727,
       "label": "Build Draft",
@@ -174,7 +174,7 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-10-20T12:28:11.503Z",
+      "lastUpdated": "2026-11-21T22:16:03.000Z",
       "filename": "auto_emailer-v3.json",
       "size": 96615,
       "label": "Auto Emailer",
@@ -188,7 +188,7 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-06-12T19:36:38.572Z",
+      "lastUpdated": "2026-11-21T22:16:03.000Z",
       "filename": "docuscrub-v3.json",
       "size": 66046,
       "label": "DocuScrub",
