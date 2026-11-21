@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "emailTemplates": [
+      {
+        "id": "requester",
+        "subject": "[Entity] and [TP Entity] -- [Type] ([CP Ref])",
+        "body": "Hello [Requester],\n\nPlease find attached a draft [Type] with [TP Entity].\n\nCan you please review and let me know if you have any questions or concerns?\n\nThanks,\n[My Name]"
+      },
+      {
+        "id": "thirdParty",
+        "subject": "[Entity] and [TP Entity] -- [Type] ([CP Ref]) ([Date])",
+        "body": "Hello [TP Contact],\n\nAt the request of [Requester], attached please find a [Type] between [Entity] and [TP Entity].\n\nPlease review and let us know if it is acceptable.\n\nThanks,\n[My Name]"
+      }
+    ]
+  },
+  "releasedAt": "2026-05-12T02:58:32.821Z"
+}

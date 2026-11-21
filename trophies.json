@@ -1,0 +1,1030 @@
+{
+  "sections": {
+    "trophies": [
+      {
+        "id": "t1",
+        "n": 1,
+        "icon": "🥚",
+        "title": "Spark of Creation",
+        "desc": "Click 'Build Draft' for the first time.",
+        "metric": "appOpenedDraft",
+        "target": 1,
+        "check": "return (s.appOpenedDraft || 0) >= 1;"
+      },
+      {
+        "id": "t2",
+        "n": 2,
+        "icon": "🏗️",
+        "title": "The Constructor",
+        "desc": "Complete 5 contract drafts.",
+        "metric": "draftsCreated",
+        "target": 5,
+        "check": "return (s.draftsCreated || 0) >= 5;"
+      },
+      {
+        "id": "t5",
+        "n": 3,
+        "icon": "🏛️",
+        "title": "The Architect",
+        "desc": "Complete 50 contract drafts.",
+        "metric": "draftsCreated",
+        "target": 50,
+        "check": "return (s.draftsCreated || 0) >= 50;"
+      },
+      {
+        "id": "t11",
+        "n": 4,
+        "icon": "🛡️",
+        "title": "First Pass",
+        "desc": "Click 'Legal Risks Scan' for the first time.",
+        "metric": "appOpenedRisk",
+        "target": 1,
+        "check": "return (s.appOpenedRisk || 0) >= 1;"
+      },
+      {
+        "id": "t17",
+        "n": 5,
+        "icon": "🚨",
+        "title": "Crisis Averted",
+        "desc": "Identify and mitigate your first 'High Severity' risk.",
+        "metric": "risksMitigated",
+        "target": 1,
+        "check": "return (s.risksMitigated || 0) >= 1;"
+      },
+      {
+        "id": "t20",
+        "n": 6,
+        "icon": "🦸",
+        "title": "Risk Manager",
+        "desc": "Identify 500 legal risks across your documents.",
+        "metric": "risksFound",
+        "target": 500,
+        "check": "return (s.risksFound || 0) >= 500;"
+      },
+      {
+        "id": "t26",
+        "n": 7,
+        "icon": "🔍",
+        "title": "The Proofreader",
+        "desc": "Click 'Error Reviews' for the first time.",
+        "metric": "appOpenedError",
+        "target": 1,
+        "check": "return (s.appOpenedError || 0) >= 1;"
+      },
+      {
+        "id": "t30",
+        "n": 8,
+        "icon": "📝",
+        "title": "The Grammarian",
+        "desc": "Run 100 Error Reviews.",
+        "metric": "errorsScanned",
+        "target": 100,
+        "check": "return (s.errorsScanned || 0) >= 100;"
+      },
+      {
+        "id": "t41",
+        "n": 9,
+        "icon": "💬",
+        "title": "First Words",
+        "desc": "Send your very first message to ELI.",
+        "metric": "chatMessages",
+        "target": 1,
+        "check": "return (s.chatMessages || 0) >= 1;"
+      },
+      {
+        "id": "t44",
+        "n": 10,
+        "icon": "🕵️",
+        "title": "The Interrogator",
+        "desc": "Send 250 messages.",
+        "metric": "chatMessages",
+        "target": 250,
+        "check": "return (s.chatMessages || 0) >= 250;"
+      },
+      {
+        "id": "t56",
+        "n": 11,
+        "icon": "📄",
+        "title": "Genesis",
+        "desc": "Fully review your 1st document.",
+        "metric": "docsReviewed",
+        "target": 1,
+        "check": "return (s.docsReviewed || 0) >= 1;"
+      },
+      {
+        "id": "t60",
+        "n": 12,
+        "icon": "👑",
+        "title": "The Centurion",
+        "desc": "Review 100 Documents.",
+        "metric": "docsReviewed",
+        "target": 100,
+        "check": "return (s.docsReviewed || 0) >= 100;"
+      },
+      {
+        "id": "t63",
+        "n": 13,
+        "icon": "💎",
+        "title": "Grandmaster",
+        "desc": "Review 1,000 Documents.",
+        "metric": "docsReviewed",
+        "target": 1000,
+        "check": "return (s.docsReviewed || 0) >= 1000;"
+      },
+      {
+        "id": "t71",
+        "n": 14,
+        "icon": "⏳",
+        "title": "Time Recovery I",
+        "desc": "Save your first 1 hour of manual review time.",
+        "metric": "hoursSaved",
+        "target": 1,
+        "check": "return (s.hoursSaved || 0) >= 1;"
+      },
+      {
+        "id": "t74",
+        "n": 15,
+        "icon": "🕰️",
+        "title": "The Time Weaver",
+        "desc": "Save 50 hours of manual review.",
+        "metric": "hoursSaved",
+        "target": 50,
+        "check": "return (s.hoursSaved || 0) >= 50;"
+      },
+      {
+        "id": "t77",
+        "n": 16,
+        "icon": "📈",
+        "title": "The Partner Track",
+        "desc": "Save 500 hours of manual review.",
+        "metric": "hoursSaved",
+        "target": 500,
+        "check": "return (s.hoursSaved || 0) >= 500;"
+      },
+      {
+        "id": "t83",
+        "n": 17,
+        "icon": "🔥",
+        "title": "Hot Streak",
+        "desc": "Hit a 5-Day Streak.",
+        "metric": "currentStreak",
+        "target": 5,
+        "check": "return (s.currentStreak || 0) >= 5;"
+      },
+      {
+        "id": "t86",
+        "n": 18,
+        "icon": "🦾",
+        "title": "The Habit",
+        "desc": "Hit a 30-Day Streak.",
+        "metric": "currentStreak",
+        "target": 30,
+        "check": "return (s.currentStreak || 0) >= 30;"
+      },
+      {
+        "id": "t102",
+        "n": 19,
+        "icon": "🐋",
+        "title": "The Leviathan",
+        "desc": "Surpass exactly 5,000 total lifetime documents.",
+        "metric": "docsReviewed",
+        "target": 5000,
+        "check": "return (s.docsReviewed || 0) >= 5000;"
+      },
+      {
+        "id": "t104",
+        "n": 20,
+        "icon": "⌛",
+        "title": "Master of Time",
+        "desc": "Accumulate 2,000 exact hours of saved manual review.",
+        "metric": "hoursSaved",
+        "target": 2000,
+        "check": "return (s.hoursSaved || 0) >= 2000;"
+      },
+      {
+        "id": "t105",
+        "n": 21,
+        "icon": "🎯",
+        "title": "Bullseye",
+        "desc": "Your scan returned exactly 20 Legal Risks.",
+        "hidden": true,
+        "target": 1,
+        "check": "return e && e.name === 'deal360' && e.data.risks === 20;"
+      },
+      {
+        "id": "t106",
+        "n": 22,
+        "icon": "🪡",
+        "title": "Needle in a Haystack",
+        "desc": "Found exactly 1 error in an agreement over 3,000 words.",
+        "hidden": true,
+        "target": 1,
+        "check": "return e && e.name === 'error_scan' && e.data.words >= 3000 && e.data.errors === 1;"
+      },
+      {
+        "id": "t107",
+        "n": 23,
+        "icon": "🛡️",
+        "title": "Flawless Victory",
+        "desc": "Scanned a document over 3,000 words and found 0 Errors.",
+        "hidden": true,
+        "target": 1,
+        "check": "return e && e.name === 'error_scan' && e.data.words > 3000 && e.data.errors === 0;"
+      },
+      {
+        "id": "t108",
+        "n": 24,
+        "icon": "🗣️",
+        "title": "The Conversationalist",
+        "desc": "Exchange 1,000 lifetime messages with Ask ELI.",
+        "metric": "chatMessages",
+        "target": 1000,
+        "check": "return (s.chatMessages || 0) >= 1000;"
+      },
+      {
+        "id": "t109",
+        "n": 25,
+        "icon": "🧲",
+        "title": "The Titanium Shield",
+        "desc": "Identify 2,500 High-Severity Legal Risks across all documents.",
+        "metric": "risksFound",
+        "target": 2500,
+        "check": "return (s.risksFound || 0) >= 2500;"
+      },
+      {
+        "id": "t111",
+        "n": 26,
+        "icon": "☀️",
+        "title": "The Daily Grind",
+        "desc": "Used ELI 3 days in a row.",
+        "target": 3,
+        "check": "return (s.currentStreak || 0) >= 3;",
+        "metric": "currentStreak"
+      },
+      {
+        "id": "t112",
+        "n": 27,
+        "icon": "🧗",
+        "title": "Weekly Warrior",
+        "desc": "Used ELI at least once a week for 4 consecutive weeks.",
+        "target": 4,
+        "check": "return (s.weeklyStreak || 0) >= 4;"
+      },
+      {
+        "id": "t113",
+        "n": 28,
+        "icon": "🗓️",
+        "title": "Monthly Master",
+        "desc": "Analyzed at least 15 distinct documents in a single month.",
+        "target": 15,
+        "check": "return (s.monthlyDocs || 0) >= 15;"
+      },
+      {
+        "id": "t114",
+        "n": 29,
+        "icon": "🌅",
+        "title": "The Early Bird",
+        "desc": "Ran a Legal Risks scan before 8:00 AM local time.",
+        "hidden": true,
+        "target": 1,
+        "check": "return e && e.name === 'deal360' && new Date().getHours() < 8;"
+      },
+      {
+        "id": "t115",
+        "n": 30,
+        "icon": "🦉",
+        "title": "The Night Owl",
+        "desc": "Used ELI's tools after 8:00 PM on a weekday.",
+        "hidden": true,
+        "target": 1,
+        "check": "var d = new Date(); return e && ['chat_message','deal360','error_scan'].indexOf(e.name) > -1 && d.getHours() >= 20 && d.getDay() >= 1 && d.getDay() <= 5;"
+      },
+      {
+        "id": "t116",
+        "n": 31,
+        "icon": "🛋️",
+        "title": "The Weekend Closer",
+        "desc": "Used ELI to review a document on a Saturday or Sunday.",
+        "hidden": true,
+        "target": 1,
+        "check": "var d = new Date(); return e && ['deal360','error_scan'].indexOf(e.name) > -1 && (d.getDay() === 0 || d.getDay() === 6);"
+      },
+      {
+        "id": "t117",
+        "n": 32,
+        "icon": "💯",
+        "title": "Century Club",
+        "desc": "Hit 100 total active days using ELI.",
+        "target": 100,
+        "check": "return (s.totalActiveDays || 0) >= 100;",
+        "metric": "totalActiveDays"
+      },
+      {
+        "id": "t118",
+        "n": 33,
+        "icon": "🔎",
+        "title": "The Track Changes Titan",
+        "desc": "Analyze a total of 1,500 individual tracked changes using the Review Redline tool.",
+        "metric": "trackChangesAnalyzed",
+        "target": 1500,
+        "check": "return (s.trackChangesAnalyzed || 0) >= 1500;"
+      },
+      {
+        "id": "t119",
+        "n": 34,
+        "icon": "✅",
+        "title": "The Routine Checker",
+        "desc": "Use Compare Draft or Review Redline at least once a week for 8 consecutive weeks.",
+        "metric": "compareOrRedlineWeeklyStreak",
+        "target": 8,
+        "check": "return (s.compareOrRedlineWeeklyStreak || 0) >= 8;"
+      },
+      {
+        "id": "t120",
+        "n": 35,
+        "icon": "🎉",
+        "title": "Loyalty Program",
+        "desc": "Reached your 1-Year Anniversary from the date you unlocked your first trophy.",
+        "target": 1,
+        "hidden": true,
+        "check": "if (!s.unlockedDates || Object.keys(s.unlockedDates).length === 0) return false; var f = new Date(Object.values(s.unlockedDates)[0]); return new Date() - f >= 31536000000;"
+      },
+      {
+        "id": "t121",
+        "n": 36,
+        "icon": "🎯",
+        "title": "Template Tactician",
+        "desc": "Use Build Draft 10 times.",
+        "metric": "appOpenedDraft",
+        "target": 10,
+        "check": "return (s.appOpenedDraft || 0) >= 10;"
+      },
+      {
+        "id": "t123",
+        "n": 37,
+        "icon": "🎼",
+        "title": "Drafting Maestro",
+        "desc": "Use Build Draft 100 times.",
+        "metric": "appOpenedDraft",
+        "target": 100,
+        "check": "return (s.appOpenedDraft || 0) >= 100;"
+      },
+      {
+        "id": "t124",
+        "n": 38,
+        "icon": "🥾",
+        "title": "The Exterminator",
+        "desc": "Manually apply 500 error fixes.",
+        "metric": "errorsFixed",
+        "target": 500,
+        "check": "return (s.errorsFixed || 0) >= 500;"
+      },
+      {
+        "id": "t128",
+        "n": 39,
+        "icon": "📏",
+        "title": "The Format Fanatic",
+        "desc": "Standardize font and spacing across 1,000,000 total words.",
+        "target": 1000000,
+        "check": "return (s.wordsFormatted || 0) >= 1000000;",
+        "metric": "wordsFormatted"
+      },
+      {
+        "id": "t130",
+        "n": 40,
+        "icon": "✏️",
+        "title": "The Corrector",
+        "desc": "Apply 100 error fixes.",
+        "metric": "errorsFixed",
+        "target": 100,
+        "check": "return (s.errorsFixed || 0) >= 100;"
+      },
+      {
+        "id": "t131",
+        "n": 41,
+        "icon": "🏙️",
+        "title": "The Deal Architect",
+        "desc": "Use the Smart Compare tool to analyze 500 separate document comparisons.",
+        "metric": "documentsCompared",
+        "target": 500,
+        "check": "return (s.documentsCompared || 0) >= 500;"
+      },
+      {
+        "id": "t132",
+        "n": 42,
+        "icon": "📨",
+        "title": "The Inbox Inquisitor",
+        "desc": "Inject 250 AI-drafted responses directly from the Email Helper.",
+        "target": 250,
+        "check": "return (s.emailsDrafted || 0) >= 250;",
+        "metric": "emailsDrafted"
+      },
+      {
+        "id": "t133",
+        "n": 43,
+        "icon": "⚡",
+        "title": "Lightning Round",
+        "desc": "Generate 4 entirely different Draft types within a 1-week window.",
+        "hidden": true,
+        "target": 1,
+        "check": "return e && e.name === 'lightning_round';"
+      },
+      {
+        "id": "t134",
+        "n": 44,
+        "icon": "🦘",
+        "title": "The Leap Year Logician",
+        "desc": "Run a Legal Risks Scan on exactly February 29th.",
+        "hidden": true,
+        "target": 1,
+        "check": "if (!e || e.name !== 'deal360') return false; var d = new Date(); return d.getMonth() === 1 && d.getDate() === 29;"
+      },
+      {
+        "id": "t135",
+        "n": 45,
+        "icon": "📚",
+        "title": "The Records Keeper",
+        "desc": "Analyze 1,000 individual tracked changes using the Review Redline tool.",
+        "metric": "trackChangesAnalyzed",
+        "target": 1000,
+        "check": "return (s.trackChangesAnalyzed || 0) >= 1000;"
+      },
+      {
+        "id": "t136",
+        "n": 46,
+        "icon": "⚡",
+        "title": "The Bionic Sprinter",
+        "desc": "Process 5,000 words consecutively using Focus Flow.",
+        "target": 5000,
+        "check": "return (s.bionicWords || 0) >= 5000;",
+        "metric": "bionicWords"
+      },
+      {
+        "id": "t137",
+        "n": 47,
+        "icon": "🧑‍⚖️",
+        "title": "The Master Consul",
+        "desc": "Run the Review Redline tool for the first time.",
+        "metric": "trackChangesAnalyzed",
+        "target": 1,
+        "check": "return (s.trackChangesAnalyzed || 0) >= 1;"
+      },
+      {
+        "id": "t138",
+        "n": 48,
+        "icon": "📅",
+        "title": "The First Frame",
+        "desc": "Use ELI for 7 distinct active days.",
+        "target": 7,
+        "check": "return (s.totalActiveDays || 0) >= 7;",
+        "metric": "totalActiveDays"
+      },
+      {
+        "id": "t139",
+        "n": 49,
+        "icon": "🕵️",
+        "title": "The Inquisitor",
+        "desc": "Send at least 5 chat messages per week for 5 consecutive weeks.",
+        "target": 5,
+        "check": "return (s.chatWeeklyStreak || 0) >= 5;"
+      },
+      {
+        "id": "t140",
+        "n": 50,
+        "icon": "📜",
+        "title": "The Iron Evaluator",
+        "desc": "Review 10,000 legal documents using ELI.",
+        "metric": "docsReviewed",
+        "target": 10000,
+        "check": "return (s.docsReviewed || 0) >= 10000;"
+      },
+      {
+        "id": "t141",
+        "n": 51,
+        "icon": "🧐",
+        "title": "The Perfectionist",
+        "desc": "Find 500 document errors across all your reviewed files.",
+        "target": 500,
+        "check": "return (s.errorsFound || 0) >= 500;",
+        "metric": "errorsFound"
+      },
+      {
+        "id": "t142",
+        "n": 52,
+        "icon": "🧽",
+        "title": "The Sweeper",
+        "desc": "Fix 1,000 syntax and mechanical errors.",
+        "target": 1000,
+        "check": "return (s.errorsFixed || 0) >= 1000;",
+        "metric": "errorsFixed"
+      },
+      {
+        "id": "t143",
+        "n": 53,
+        "icon": "🦅",
+        "title": "The Eagle Eye",
+        "desc": "Find 5,000 document errors across your career.",
+        "target": 5000,
+        "check": "return (s.errorsFound || 0) >= 5000;",
+        "metric": "errorsFound"
+      },
+      {
+        "id": "t144",
+        "n": 54,
+        "icon": "🧙‍♂️",
+        "title": "The Master Proofreader",
+        "desc": "Fix 15,000 syntax and mechanical errors.",
+        "target": 15000,
+        "check": "return (s.errorsFixed || 0) >= 15000;",
+        "metric": "errorsFixed"
+      },
+      {
+        "id": "t145",
+        "n": 55,
+        "icon": "📡",
+        "title": "The Radar",
+        "desc": "Identify 100 hidden legal risks across your documents.",
+        "target": 100,
+        "check": "return (s.risksFound || 0) >= 100;",
+        "metric": "risksFound"
+      },
+      {
+        "id": "t146",
+        "n": 56,
+        "icon": "🛡️",
+        "title": "The Guardian",
+        "desc": "Mitigate 50 substantial legal risks.",
+        "target": 50,
+        "check": "return (s.risksMitigated || 0) >= 50;",
+        "metric": "risksMitigated"
+      },
+      {
+        "id": "t147",
+        "n": 57,
+        "icon": "👁️",
+        "title": "The Watchtower",
+        "desc": "Identify 1,000 hidden legal risks.",
+        "target": 1000,
+        "check": "return (s.risksFound || 0) >= 1000;",
+        "metric": "risksFound"
+      },
+      {
+        "id": "t148",
+        "n": 58,
+        "icon": "⚔️",
+        "title": "The Shield",
+        "desc": "Mitigate 500 substantial legal risks.",
+        "target": 500,
+        "check": "return (s.risksMitigated || 0) >= 500;",
+        "metric": "risksMitigated"
+      },
+      {
+        "id": "t149",
+        "n": 59,
+        "icon": "🛰️",
+        "title": "The Oracle of Liability",
+        "desc": "Identify an incredible 10,000 hidden legal risks.",
+        "target": 10000,
+        "check": "return (s.risksFound || 0) >= 10000;",
+        "metric": "risksFound"
+      },
+      {
+        "id": "t150",
+        "n": 60,
+        "icon": "🏰",
+        "title": "The Ironclad Architect",
+        "desc": "Mitigate 5,000 legal risks across major transactions.",
+        "target": 5000,
+        "check": "return (s.risksMitigated || 0) >= 5000;",
+        "metric": "risksMitigated"
+      },
+      {
+        "id": "t151",
+        "n": 61,
+        "icon": "🔍",
+        "title": "The Micro-Sleuth",
+        "desc": "Find 25,000 tiny document errors.",
+        "target": 25000,
+        "check": "return (s.errorsFound || 0) >= 25000;",
+        "metric": "errorsFound"
+      },
+      {
+        "id": "t152",
+        "n": 62,
+        "icon": "💎",
+        "title": "The Flawless Record",
+        "desc": "Fix 100,000 errors. You have effectively perfected the art of drafting.",
+        "target": 100000,
+        "check": "return (s.errorsFixed || 0) >= 100000;",
+        "metric": "errorsFixed"
+      },
+      {
+        "id": "t153",
+        "n": 63,
+        "icon": "🦉",
+        "title": "The Midnight Oil",
+        "desc": "Mitigate a legal risk or fix an error between 11:00 PM and 4:00 AM local time.",
+        "hidden": true,
+        "target": 1,
+        "check": "if (!e) return false; if (e.name === 'midnight_fix') return true; var hour = new Date().getHours(); return (e.name === 'error_fix' || e.name === 'risk_mitigate') && (hour >= 23 || hour < 4);"
+      },
+      {
+        "id": "t154",
+        "n": 64,
+        "icon": "🏛️",
+        "title": "The Drafting Machine",
+        "desc": "Build 1,000 complete contract drafts.",
+        "metric": "draftsCreated",
+        "target": 1000,
+        "check": "return (s.draftsCreated || 0) >= 1000;"
+      },
+      {
+        "id": "t155",
+        "n": 65,
+        "icon": "🔄",
+        "title": "The Grand Architect",
+        "desc": "Generate 500 complete contract drafts using the Draft Builder.",
+        "metric": "draftsCreated",
+        "target": 500,
+        "check": "return (s.draftsCreated || 0) >= 500;"
+      },
+      {
+        "id": "t156",
+        "n": 66,
+        "icon": "🧊",
+        "title": "The Icebreaker",
+        "desc": "Ask ELI 5 questions in a single day.",
+        "target": 5,
+        "check": "return (s.dailyQuestions || 0) >= 5;"
+      },
+      {
+        "id": "t157",
+        "n": 67,
+        "icon": "🗣️",
+        "title": "The Conversationalist",
+        "desc": "Ask ELI 25 questions in a single day.",
+        "target": 25,
+        "check": "return (s.dailyQuestions || 0) >= 25;"
+      },
+      {
+        "id": "t158",
+        "n": 68,
+        "icon": "⚖️",
+        "title": "The Compare Validator",
+        "desc": "Use the Smart Compare tool to analyze 25 separate document comparisons.",
+        "metric": "documentsCompared",
+        "target": 25,
+        "check": "return (s.documentsCompared || 0) >= 25;"
+      },
+      {
+        "id": "t159",
+        "n": 69,
+        "icon": "⚡",
+        "title": "The Power User",
+        "desc": "Perform 25 actions in ELI in a single day.",
+        "target": 25,
+        "metric": "dailyActions",
+        "check": "return (s.dailyActions || 0) >= 25;"
+      },
+      {
+        "id": "t160",
+        "n": 70,
+        "icon": "💨",
+        "title": "The Speed Reader",
+        "desc": "Analyze 3 separate documents in a single day.",
+        "target": 3,
+        "metric": "dailyDocsReviewed",
+        "check": "return (s.dailyDocsReviewed || 0) >= 3;"
+      },
+      {
+        "id": "t161",
+        "n": 71,
+        "icon": "🕵️",
+        "title": "The Interrogator",
+        "desc": "Use the Compare tool to analyze 1 document against an EI template.",
+        "target": 1,
+        "metric": "documentsCompared",
+        "check": "return (s.documentsCompared || 0) >= 1;"
+      },
+      {
+        "id": "t162",
+        "n": 72,
+        "icon": "🔧",
+        "title": "The Quick Fix",
+        "desc": "Fix 10 document errors.",
+        "metric": "errorsFixed",
+        "target": 10,
+        "check": "return (s.errorsFixed || 0) >= 10;"
+      },
+      {
+        "id": "t163",
+        "n": 73,
+        "icon": "⛓️",
+        "title": "The Iron Year",
+        "desc": "Maintain an unbroken weekly login and usage streak for 52 consecutive weeks.",
+        "target": 52,
+        "check": "return (s.weeklyStreak || 0) >= 52;"
+      },
+      {
+        "id": "t164",
+        "n": 74,
+        "icon": "📖",
+        "title": "The Playbook Professional",
+        "desc": "Use the Playbook to run document analysis 100 times.",
+        "metric": "playbookAnalyses",
+        "target": 100,
+        "check": "return (s.playbookAnalyses || 0) >= 100;"
+      },
+      {
+        "id": "t165",
+        "n": 75,
+        "icon": "💌",
+        "title": "The RSVP",
+        "desc": "Show up to your 1-Year ELI Anniversary drop event! Process any document during the 7-day window of your original start date.",
+        "target": 1,
+        "check": "if (!s.unlockedDates || Object.keys(s.unlockedDates).length === 0) return false; var firstUnlock = new Date(Object.values(s.unlockedDates)[0]); var now = new Date(); var diffDays = Math.floor((now - firstUnlock) / (1000 * 60 * 60 * 24)); if (diffDays >= 365 && diffDays <= 372 && s.dailyActions > 0) { return true; } return false;"
+      },
+      {
+        "id": "t166",
+        "n": 76,
+        "icon": "🐪",
+        "title": "Hump Day Hustler",
+        "desc": "Use ELI on 3 consecutive Wednesdays.",
+        "metric": "consecutiveWednesdays",
+        "target": 3,
+        "check": "return (s.consecutiveWednesdays || 0) >= 3;"
+      },
+      {
+        "id": "t167",
+        "n": 77,
+        "icon": "🍻",
+        "title": "TGIF Veteran",
+        "desc": "Use ELI on 5 consecutive Fridays.",
+        "metric": "consecutiveFridays",
+        "target": 5,
+        "check": "return (s.consecutiveFridays || 0) >= 5;"
+      },
+      {
+        "id": "t168",
+        "n": 78,
+        "icon": "🌄",
+        "title": "First Light",
+        "desc": "Use ELI on the 1st day of any month.",
+        "metric": "usedFirstOfMonth",
+        "target": 1,
+        "check": "return (s.usedFirstOfMonth || 0) >= 1;"
+      },
+      {
+        "id": "t169",
+        "n": 79,
+        "icon": "🌙",
+        "title": "The Closer",
+        "desc": "Use ELI on the last day of any month.",
+        "metric": "usedLastOfMonth",
+        "target": 1,
+        "check": "return (s.usedLastOfMonth || 0) >= 1;"
+      },
+      {
+        "id": "t170",
+        "n": 80,
+        "icon": "🪐",
+        "title": "May the Force",
+        "desc": "Use ELI on May 4th. May the Fourth be with you!",
+        "metric": "usedMay4th",
+        "target": 1,
+        "check": "return (s.usedMay4th || 0) >= 1;"
+      },
+      {
+        "id": "t171",
+        "n": 81,
+        "icon": "🎄",
+        "title": "Holiday Hustle",
+        "desc": "Use ELI on a major US holiday (New Year's, July 4th, Thanksgiving week, or Christmas).",
+        "metric": "usedHoliday",
+        "target": 1,
+        "check": "return (s.usedHoliday || 0) >= 1;"
+      },
+      {
+        "id": "t172",
+        "n": 82,
+        "icon": "🔥",
+        "title": "Full Week Flame",
+        "desc": "Use ELI every day for 7 consecutive days.",
+        "metric": "currentStreak",
+        "target": 7,
+        "check": "return (s.currentStreak || 0) >= 7;"
+      },
+      {
+        "id": "t173",
+        "n": 83,
+        "icon": "📆",
+        "title": "Monday Motivator",
+        "desc": "Use ELI on 4 consecutive Mondays. Starting the week strong!",
+        "metric": "consecutiveMondays",
+        "target": 4,
+        "check": "return (s.consecutiveMondays || 0) >= 4;"
+      },
+      {
+        "id": "t174",
+        "n": 84,
+        "icon": "🗓️",
+        "title": "The Bookend",
+        "desc": "Use ELI on both the first AND last day of the same month.",
+        "metric": "bookendMonths",
+        "target": 1,
+        "check": "return (s.bookendMonths || 0) >= 1;"
+      },
+      {
+        "id": "t175",
+        "n": 85,
+        "icon": "📆",
+        "title": "The Baseline Habit",
+        "desc": "Run a 'Compare Draft' analysis at least once a week for 8 consecutive weeks.",
+        "metric": "compareWeeklyStreak",
+        "target": 8,
+        "check": "return (s.compareWeeklyStreak || 0) >= 8;"
+      },
+      {
+        "id": "t176",
+        "n": 86,
+        "icon": "📋",
+        "title": "The Full Portfolio",
+        "desc": "Build a draft of all 4 core types: NDA, Service Agreement, MTA, and Amendment.",
+        "target": 1,
+        "check": "if (!s.draftTypesBuilt) return false; var d = s.draftTypesBuilt; return d.NDA && d.ServiceAgreement && d.MTA && d.Amendment;"
+      },
+      {
+        "id": "t177",
+        "n": 87,
+        "icon": "🚀",
+        "title": "The Rapid Drafter",
+        "desc": "Build 3 drafts in a single day.",
+        "metric": "dailyDrafts",
+        "target": 3,
+        "check": "return (s.dailyDrafts || 0) >= 3;"
+      },
+      {
+        "id": "t178",
+        "n": 88,
+        "icon": "🏭",
+        "title": "The Assembly Line",
+        "desc": "Build 25 drafts in a single calendar month.",
+        "metric": "monthlyDrafts",
+        "target": 25,
+        "check": "return (s.monthlyDrafts || 0) >= 25;"
+      },
+      {
+        "id": "t179",
+        "n": 89,
+        "icon": "🧾",
+        "title": "The Error Veteran",
+        "desc": "Run Error Reviews 200 times. You know every comma in every clause.",
+        "metric": "errorsScanned",
+        "target": 200,
+        "check": "return (s.errorsScanned || 0) >= 200;"
+      },
+      {
+        "id": "t180",
+        "n": 90,
+        "icon": "⏱️",
+        "title": "The Time Weaver",
+        "desc": "Save a cumulative total of 10,000 hours of manual labor.",
+        "metric": "hoursSaved",
+        "target": 10000,
+        "check": "return (s.hoursSaved || 0) >= 10000;"
+      },
+      {
+        "id": "t181",
+        "n": 91,
+        "icon": "🔨",
+        "title": "Draft Veteran",
+        "desc": "Build 200 contract drafts. You're a drafting machine.",
+        "metric": "draftsCreated",
+        "target": 200,
+        "check": "return (s.draftsCreated || 0) >= 200;"
+      },
+      {
+        "id": "t182",
+        "n": 92,
+        "icon": "✒️",
+        "title": "Curator of Standards",
+        "desc": "Run Final Review 50 times.",
+        "metric": "appOpenedFinalReview",
+        "target": 50,
+        "check": "return (s.appOpenedFinalReview || 0) >= 50;"
+      },
+      {
+        "id": "t183",
+        "n": 93,
+        "icon": "🥉",
+        "title": "The 30-Day Club",
+        "desc": "Use ELI for 30 distinct active days. Dedication pays off.",
+        "metric": "totalActiveDays",
+        "target": 30,
+        "check": "return (s.totalActiveDays || 0) >= 30;"
+      },
+      {
+        "id": "t184",
+        "n": 94,
+        "icon": "🤝",
+        "title": "The Negotiator",
+        "desc": "Use the Smart Compare tool to analyze 100 separate document comparisons.",
+        "metric": "documentsCompared",
+        "target": 100,
+        "check": "return (s.documentsCompared || 0) >= 100;"
+      },
+      {
+        "id": "t185",
+        "n": 95,
+        "icon": "🎨",
+        "title": "Draft Diversity",
+        "desc": "Build a new contract draft on every day of the week (Mon–Sun).",
+        "metric": "draftDaysOfWeek",
+        "target": 7,
+        "check": "if (!s.draftDaysOfWeek) return false; return Object.keys(s.draftDaysOfWeek).length >= 7;"
+      },
+      {
+        "id": "t186",
+        "n": 96,
+        "icon": "✉️",
+        "title": "Email Pioneer",
+        "desc": "Draft and send 10 emails using the Email Helper.",
+        "metric": "emailsDrafted",
+        "target": 10,
+        "check": "return (s.emailsDrafted || 0) >= 10;"
+      },
+      {
+        "id": "t187",
+        "n": 97,
+        "icon": "🔭",
+        "title": "Risk Sentinel",
+        "desc": "Run Legal Risks scans 200 times. Nothing slips past you.",
+        "metric": "appOpenedRisk",
+        "target": 200,
+        "check": "return (s.appOpenedRisk || 0) >= 200;"
+      },
+      {
+        "id": "t188",
+        "n": 98,
+        "icon": "🛡️",
+        "title": "The Perimeter Guard",
+        "desc": "Analyze a total of 100 individual tracked changes using the Review Redline tool.",
+        "metric": "trackChangesAnalyzed",
+        "target": 100,
+        "check": "return (s.trackChangesAnalyzed || 0) >= 100;"
+      },
+      {
+        "id": "t189",
+        "n": 99,
+        "icon": "🥈",
+        "title": "The 50-Day Mark",
+        "desc": "Use ELI for 50 distinct active days. Halfway to the century!",
+        "metric": "totalActiveDays",
+        "target": 50,
+        "check": "return (s.totalActiveDays || 0) >= 50;"
+      },
+      {
+        "id": "t190",
+        "n": 100,
+        "icon": "🏅",
+        "title": "The Yearly Grind",
+        "desc": "Use ELI for 365 distinct active days. A full year of legal excellence!",
+        "metric": "totalActiveDays",
+        "target": 365,
+        "check": "return (s.totalActiveDays || 0) >= 365;"
+      },
+      {
+        "id": "t101",
+        "n": 101,
+        "icon": "🥯",
+        "title": "The Jared",
+        "desc": "Run 3 tools after 3 PM on three different Thursdays.",
+        "metric": "thursdayPmDays",
+        "target": 3,
+        "check": "return (s.thursdayPmDays || 0) >= 3;"
+      },
+      {
+        "id": "t191",
+        "n": 102,
+        "icon": "📿",
+        "title": "The Amelia",
+        "desc": "Add 7 pieces of team guidance in Review Redlines.",
+        "metric": "teamGuidanceAdded",
+        "target": 7,
+        "check": "return (s.teamGuidanceAdded || 0) >= 7;"
+      },
+      {
+        "id": "t_graduate",
+        "n": 103,
+        "icon": "🎓",
+        "title": "ELI Graduate",
+        "desc": "Finish the ELI training. You've unlocked accessories — add the grad cap in Personalize ELI!",
+        "metric": "trainingCompleted",
+        "target": 1,
+        "check": "return (s.trainingCompleted || 0) >= 1;"
+      }
+    ]
+  },
+  "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
+  "releasedAt": "2026-06-17T05:30:23.474Z"
+}

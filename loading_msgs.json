@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "loadingMsgs": [
+      {
+        "id": "default",
+        "messages": [
+          "📊 Initializing Comprehensive Scan...",
+          "🛡️ Fighting legal plaque...",
+          "🪥 Brushing up grammar & syntax...",
+          "🔍 Identifying typos and deletions...",
+          "🦷 Drilling into the fine print...",
+          "🛡️ Applying Mandatory Colgate/Hill's Rules...",
+          "✨ Whitening the redlines...",
+          "✅ Minty fresh finish..."
+        ]
+      },
+      {
+        "id": "template",
+        "messages": [
+          "📄 Reading template file...",
+          "🔍 Detecting placeholders...",
+          "🧩 Mapping fields to values...",
+          "✨ Preparing fillable form..."
+        ]
+      }
+    ]
+  },
+  "releasedAt": "2026-05-13T05:36:16.379Z"
+}

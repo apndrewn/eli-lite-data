@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "kernelMajor": 3,
+  "lastUpdated": "2026-11-21T22:07:55.321121Z",
+  "tools": [
+    {
+      "id": "tool_manager",
+      "version": null,
+      "lastUpdated": "2026-05-23T05:13:16.636Z",
+      "filename": "tool_manager-v3.json",
+      "size": 96673,
+      "label": "Data Hub",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli_settings",
+      "version": null,
+      "lastUpdated": "2026-11-19T04:33:53.960Z",
+      "filename": "eli_settings-v3.json",
+      "size": 142857,
+      "label": "Settings",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli_kit",
+      "version": null,
+      "lastUpdated": "2026-10-14T06:50:51.536Z",
+      "filename": "eli_kit-v3.json",
+      "size": 167582,
+      "label": "ELI Kit",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli-activity",
+      "version": null,
+      "lastUpdated": "2026-06-13T03:57:25.462Z",
+      "filename": "eli-activity-v3.json",
+      "size": 47695,
+      "label": "ELI Activity Feed",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli_stats",
+      "version": null,
+      "lastUpdated": "2026-10-16T16:26:24.452Z",
+      "filename": "eli_stats-v3.json",
+      "size": 65340,
+      "label": "ELI Stats",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli-wrongness",
+      "version": null,
+      "lastUpdated": "2026-05-17T13:54:46.170Z",
+      "filename": "eli-wrongness-v3.json",
+      "size": 11824,
+      "label": "ELI Wrongness Suite",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "redline_authors",
+      "version": null,
+      "lastUpdated": "2026-10-20T20:10:22.113Z",
+      "filename": "redline_authors-v3.json",
+      "size": 33523,
+      "label": "Redline Authors",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "dashboard_widgets",
+      "version": null,
+      "lastUpdated": "2026-07-09T04:04:23.046Z",
+      "filename": "dashboard_widgets-v3.json",
+      "size": 172656,
+      "label": "Dashboard Widgets",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "doc_style",
+      "version": null,
+      "lastUpdated": "2026-10-23T17:35:14.947Z",
+      "filename": "doc_style-v3.json",
+      "size": 52181,
+      "label": "Document Style",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli_writer",
+      "version": null,
+      "lastUpdated": "2026-10-25T15:28:32.192Z",
+      "filename": "eli_writer-v3.json",
+      "size": 223237,
+      "label": "ELI Writer",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "oars_loader",
+      "version": null,
+      "lastUpdated": "2026-10-14T06:56:11.824Z",
+      "filename": "oars_loader-v3.json",
+      "size": 90699,
+      "label": "OARS Data Hub",
+      "kind": "tool",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "build_draft",
+      "version": null,
+      "lastUpdated": "2026-11-19T04:43:04.833Z",
+      "filename": "build_draft-v3.json",
+      "size": 831727,
+      "label": "Build Draft",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "auto_emailer",
+      "version": null,
+      "lastUpdated": "2026-10-20T12:28:11.503Z",
+      "filename": "auto_emailer-v3.json",
+      "size": 96615,
+      "label": "Auto Emailer",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "docuscrub",
+      "version": null,
+      "lastUpdated": "2026-06-12T19:36:38.572Z",
+      "filename": "docuscrub-v3.json",
+      "size": 66046,
+      "label": "DocuScrub",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "version_history",
+      "version": null,
+      "lastUpdated": "2026-06-13T04:06:52.044Z",
+      "filename": "version_history-v3.json",
+      "size": 47939,
+      "label": "Version History",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "format_check",
+      "version": null,
+      "lastUpdated": "2026-10-25T14:07:42.584Z",
+      "filename": "format_check-v3.json",
+      "size": 94601,
+      "label": "Format Check",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "email_formatter",
+      "version": null,
+      "lastUpdated": "2026-11-20T05:39:14.050Z",
+      "filename": "email_formatter-v3.json",
+      "size": 3730,
+      "label": "Email Formatter",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "focus_flow",
+      "version": null,
+      "lastUpdated": "2026-05-18T11:52:32.797Z",
+      "filename": "focus_flow-v3.json",
+      "size": 17786,
+      "label": "Focus Flow",
+      "kind": "tool",
+      "category": "Accessibility",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "template_searcher",
+      "version": null,
+      "lastUpdated": "2026-05-26T00:18:24.155Z",
+      "filename": "template_searcher-v3.json",
+      "size": 146856,
+      "label": "Template Searcher",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "draft_audit",
+      "version": null,
+      "lastUpdated": "2026-06-16T11:56:02.976Z",
+      "filename": "draft_audit-v3.json",
+      "size": 34014,
+      "label": "My Draft History",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "template_manager",
+      "version": null,
+      "lastUpdated": "2026-10-23T12:20:54.297Z",
+      "filename": "template_manager-v3.json",
+      "size": 72912,
+      "label": "Template Manager",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com",
+        "jared_lerner@colpal.com"
+      ]
+    },
+    {
+      "id": "template_editor",
+      "version": null,
+      "lastUpdated": "2026-10-14T05:45:43.952Z",
+      "filename": "template_editor-v3.json",
+      "size": 59174,
+      "label": "Template Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "placeholder_editor",
+      "version": null,
+      "lastUpdated": "2026-09-15T02:39:23.595Z",
+      "filename": "placeholder_editor-v3.json",
+      "size": 19941,
+      "label": "Placeholder Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "refresh_eli",
+      "version": null,
+      "lastUpdated": "2026-05-17T13:54:46.231Z",
+      "filename": "refresh_eli-v3.json",
+      "size": 21113,
+      "label": "Refresh ELI",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "__data_catalog",
+      "lastUpdated": "2026-05-13T02:23:37.229Z",
+      "filename": "catalog.json",
+      "size": 13709,
+      "label": "Master Catalog (Dashboard tiles)",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "catalog"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_prompts",
+      "lastUpdated": "2026-09-11T15:27:58.679Z",
+      "filename": "prompts.json",
+      "size": 54393,
+      "label": "AI Prompts",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "prompts"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_agreement_types",
+      "lastUpdated": "2026-10-16T04:53:52.198Z",
+      "filename": "agreement_types.json",
+      "size": 7032,
+      "label": "Agreement Types",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "agreementTypes"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_email_templates",
+      "lastUpdated": "2026-05-12T02:58:32.821Z",
+      "filename": "email_templates.json",
+      "size": 695,
+      "label": "Email Templates",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "emailTemplates"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_cleaner_rules",
+      "lastUpdated": "2026-05-12T02:58:32.822Z",
+      "filename": "cleaner_rules.json",
+      "size": 667,
+      "label": "Cleaner Rules",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "cleanerRules"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_loading_msgs",
+      "lastUpdated": "2026-05-13T05:36:16.379Z",
+      "filename": "loading_msgs.json",
+      "size": 772,
+      "label": "Loading Messages",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "loadingMsgs"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_trophies",
+      "lastUpdated": "2026-06-17T05:30:23.474Z",
+      "filename": "trophies.json",
+      "size": 32254,
+      "label": "Trophies Library",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "trophies"
+      ],
+      "changelog": ""
+    }
+  ],
+  "bundles": [
+    {
+      "id": "eli_for_harvey",
+      "label": "ELI for Harvey",
+      "icon": "🧰",
+      "description": "ELI's program tools (no AI) that complement Harvey",
+      "audience": [
+        "all"
+      ],
+      "members": [
+        "tool_manager",
+        "eli_settings",
+        "eli_kit",
+        "eli-activity",
+        "eli_stats",
+        "eli-wrongness",
+        "redline_authors",
+        "dashboard_widgets",
+        "doc_style",
+        "eli_writer",
+        "oars_loader",
+        "build_draft",
+        "auto_emailer",
+        "docuscrub",
+        "version_history",
+        "format_check",
+        "email_formatter",
+        "focus_flow",
+        "template_searcher",
+        "draft_audit",
+        "template_manager",
+        "template_editor",
+        "placeholder_editor",
+        "refresh_eli",
+        "__data_catalog",
+        "__data_prompts",
+        "__data_agreement_types",
+        "__data_email_templates",
+        "__data_cleaner_rules",
+        "__data_loading_msgs",
+        "__data_trophies"
+      ]
+    }
+  ]
+}
