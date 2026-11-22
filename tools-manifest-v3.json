@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-11-22T19:34:18.000Z",
+  "lastUpdated": "2026-11-22T19:37:03.000Z",
   "tools": [
     {
       "id": "eli_harvey_home",
       "version": null,
-      "lastUpdated": "2026-11-22T19:34:18.000Z",
+      "lastUpdated": "2026-11-22T19:37:03.000Z",
       "filename": "eli_harvey_home-v3.json",
-      "size": 28236,
+      "size": 31170,
       "label": "ELI for Harvey Home",
       "kind": "tool",
       "category": "System",
