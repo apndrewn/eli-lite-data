@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-11-22T19:37:03.000Z",
+  "lastUpdated": "2026-11-22T20:15:19.000Z",
   "tools": [
     {
       "id": "eli_harvey_home",
@@ -20,9 +20,9 @@
     {
       "id": "harvey_helper",
       "version": null,
-      "lastUpdated": "2026-11-22T00:53:38.000Z",
+      "lastUpdated": "2026-11-22T20:15:19.000Z",
       "filename": "harvey_helper-v3.json",
-      "size": 15681,
+      "size": 15696,
       "label": "Harvey Helper",
       "kind": "tool",
       "category": "External Innovation",
