@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-11-22T00:33:51.000Z",
+  "lastUpdated": "2026-11-22T00:44:17.000Z",
   "tools": [
     {
       "id": "eli_harvey_home",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "eli_harvey_home-v3.json",
-      "size": 26490,
+      "size": 27456,
       "label": "ELI for Harvey Home",
       "kind": "tool",
       "category": "System",
@@ -20,7 +20,7 @@
     {
       "id": "harvey_helper",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "harvey_helper-v3.json",
       "size": 14566,
       "label": "Harvey Helper",
@@ -48,7 +48,7 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "eli_settings-v3.json",
       "size": 142857,
       "label": "Settings",
@@ -188,7 +188,7 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "build_draft-v3.json",
       "size": 831727,
       "label": "Build Draft",
@@ -202,7 +202,7 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "auto_emailer-v3.json",
       "size": 96615,
       "label": "Auto Emailer",
@@ -216,7 +216,7 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "docuscrub-v3.json",
       "size": 66046,
       "label": "DocuScrub",
@@ -258,7 +258,7 @@
     {
       "id": "email_formatter",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "email_formatter-v3.json",
       "size": 3730,
       "label": "Email Formatter",
@@ -272,7 +272,7 @@
     {
       "id": "focus_flow",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "focus_flow-v3.json",
       "size": 17786,
       "label": "Focus Flow",
@@ -286,7 +286,7 @@
     {
       "id": "template_searcher",
       "version": null,
-      "lastUpdated": "2026-11-22T00:33:51.000Z",
+      "lastUpdated": "2026-11-22T00:44:17.000Z",
       "filename": "template_searcher-v3.json",
       "size": 146856,
       "label": "Template Searcher",
